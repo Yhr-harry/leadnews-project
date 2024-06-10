@@ -1,0 +1,12 @@
+server:
+  port: 8881
+
+
+xxl:
+  job:
+    admin:
+      addresses: http://localhost:8082/xxl-job-admin
+    executor:
+      logpath: /Users/yhr/Desktop/headline_project/logs
+      appname: xxl-job-executor-sample
+      port: 9999
